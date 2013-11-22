@@ -17,14 +17,14 @@ This is a step by step install for a new MVC application.
 First thing to do is to make sure that you have the latest NuGet installed in your Visual Studio.
 Again, make sure it is the latest version.
 
-![ScreenShot](https://www.coreyauger.com/images/neo/1.jpg)
+![ScreenShot](http://www.coreyauger.com/images/neo/1.jpg)
 
 At this point make sure that you have Neo4J up and running and that you can connect to it.  Assuming you have Neo4J installed on your localhost you should be able to connect via your web browser with the address.
 ```
 http://localhost:7474
 ```
 If you have everything up and running you should see a screen similar to this one.
-![ScreenShot](https://www.coreyauger.com/images/neo/3.jpg)
+![ScreenShot](http://www.coreyauger.com/images/neo/3.jpg)
 
 Create a new MVC 3/4 web application.  Once you are looking at the project files, right click on your refrences and choose "Manage NuGet Packages.."
 
@@ -35,7 +35,7 @@ Next you can search for "Neo4JMembershipProvider" in the top right search menu.
 Once you see the package in the main list.  Click the install button.
 
 Verify that the package installed by looking for a green checkmark next to the package.  See image as refrence
-![ScreenShot](https://www.coreyauger.com/images/neo/2.jpg)
+![ScreenShot](http://www.coreyauger.com/images/neo/2.jpg)
 
 Now we have to make a few changes to the configuration of our application.
 
@@ -74,7 +74,7 @@ First off we will need to modify our web.config file to include the following li
 ```
 I have also included an image with the highlighted changes.  
 NOTE: that your connection string may need to change <localhost> to point to your db location
-![ScreenShot](https://www.coreyauger.com/images/neo/4.jpg)
+![ScreenShot](http://www.coreyauger.com/images/neo/4.jpg)
 
 The last thing you need to do is to modify your "InitializeSimpleMembershipAttribute.cs"
 This is located in your <MVC Projects>/filters/InitializeSimpleMembershipAttribute.cs
