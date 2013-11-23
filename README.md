@@ -12,6 +12,8 @@ NOTE: this package is auto installed as a dependency when you use NuGet
 
 
 ## Install
+NuGet package [https://www.nuget.org/packages/Neo4JMembershipProvider/](https://www.nuget.org/packages/Neo4JMembershipProvider/)
+
 This is a step by step install for a new MVC application.
 
 First thing to do is to make sure that you have the latest NuGet installed in your Visual Studio.
