@@ -129,3 +129,7 @@ However, if you have any trouble please contact me and I will be glad to help.
 
 Thanks... and Enjoy the power of your new graph db :)
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/coreyauger/neo4jmembershipprovider/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
